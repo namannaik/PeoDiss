@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+ <head>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+   <link rel="stylesheet" href="PeoDis.css">
+   <title>PeoDiss Account Info</title>
+   <link rel="icon" href="app_icon.jpg" type="image/gif" sizes="16x16">
+   <link rel="apple-touch-icon" sizes="128x128" href="app_icon.jpg">
+ </head>
+ 
+ <body>
+  <div>
+    <a href="profile.jpg"><img src="profile.jpg" width="20%" height="30%" style="border-radius:50%; margin:8% 2% 2% 4%"></a>
+  </div>
+  <p id="edit" style="color:red;font-size:20pxs;"></p>
+  <div style="margin:-21% 0% 0% 28%; border:1px solid lightblue;padding:14px;">
+    <h3><b><i>Naman Naik</i></b></h3>
+	<h4 title="username">naman_naik123</h4>
+    <h4>Bio : ....</h4>
+    <h4> . . . .</h4>
+	<h4> . . . .</h4>
+	<input type="button" value="Edit Profile" onclick="editprofile()">
+  </div><hr>
+   <div >
+	   <p>No posts are available . .  .</p>
+   </div>
+  <div class="icon-bar">
+     <a href="home-page.htm"><img src="home_icon.jpg" alt="XX" width="8%" height="2%">
+	 </a>
+	 <a href="account-info.htm"><img src="account_icon.png" alt="XX" width="8%" height="2%">
+	 </a>
+	 <a href="notification-page.htm"><img src="notification-icon.jpg" alt="XX" width="8%" height="2%">
+	 </a>
+     <a href="add-page.htm"><img src="add_icon.jpg" alt="XX" width="8%" height="2%">
+	 </a>
+	 
+<script>
+ function editprofile() {
+    document.getElementById("edit").innerHTML="You can't make changes Due to some problem";
+ }
+</script>	 
+  </div>	
+ </body>
+ 
+</html>
